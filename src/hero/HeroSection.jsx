@@ -33,14 +33,14 @@ const HeroSection = () => {
 
         {/* hero-overlay */}
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center px-4">
-          <h1 className="text-[22px] sm:text-[30px] md:text-[40px] lg:text-[65px] text-[#292F36] font-normal font-dm leading-tight">
+          <h1 className="text-[20px] sm:text-[30px] md:text-[40px] lg:text-[65px] text-[#292F36] font-normal font-dm leading-tight">
             Let Your Home Be Unique
           </h1>
-          <p className="text-[12px] sm:text-[16px] md:text-[18px] lg:text-[22px] font-jost text-[#4D5053] mt-4 mb-6 max-w-[600px] mx-auto">
+          <p className="text-[12px] sm:text-[16px] md:text-[18px] lg:text-[22px] font-jost text-[#4D5053] mt-4 mb-3  max-w-[600px] sm:w-[400px] mx-auto">
             There are many variations of the passages of lorem Ipsum available,
             but the majority have suffered alteration.
           </p>
-          <button className="flex items-center justify-center gap-2 text-[16px] md:text-[18px] lg:text-[22px] font-jost font-semibold text-white bg-[#292F36] px-6 py-3 md:px-8 md:py-4 rounded-[18px] hover:bg-[#6e767e] cursor-pointer">
+          <button className="flex items-center justify-center gap-2 text-[12px] md:text-[18px] lg:text-[22px] font-jost font-semibold text-white bg-[#292F36] px-6 py-3 md:px-8 md:py-4 rounded-[18px] hover:bg-[#6e767e] cursor-pointer">
             Get Started <img src={arrow} alt="Arrow Icon" />
           </button>
         </div>
