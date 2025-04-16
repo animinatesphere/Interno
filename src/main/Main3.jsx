@@ -1,7 +1,7 @@
 import React from "react";
-import image1 from "../assets/image (1).png";
-import image2 from "../assets/image (2).png";
-import image3 from "../assets/image (3).png";
+import image1 from "../assets/Image (1).png";
+import image2 from "../assets/Image (2).png";
+import image3 from "../assets/Image (3).png";
 const Main3 = () => {
   const people = [
     {
