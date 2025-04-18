@@ -81,7 +81,7 @@ const Navbar = () => {
         <div className="w-[30px] h-[3px] bg-black"></div>
       </div>
       {open && (
-        <div className=" lg:hidden flex flex-col absolute top-0  right-0 gap-[35px] bg-[#e6d4d4] w-[300px] h-[100vh] overflow-x-hidden p-3 z-[1] ">
+        <div className=" lg:hidden flex flex-col absolute top-0  right-0 gap-[35px] bg-[#e6d4d4] w-[300px] h-[100vh] overflow-hidden p-3 z-[1] ">
           {/* harmburger -header */}
           <div className="flex items-center justify-between ">
             <p className="text-[40px] text-[black] font-dm">Interno</p>
